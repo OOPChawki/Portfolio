@@ -1,21 +1,40 @@
 
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
+@media screen and (max-width: 1300px) {
+  
   .about-containers {
     flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
+  section{
+    padding-top: 10vh;
+  }
   #desktop-nav {
     display: none;
   }
+  nav{
+    justify-content:space-around ;
+    align-items: center;
+    height:10vh;
+    
+}
   #hamburger-nav {
     display: flex;
   }
+  #hamburger-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 10px; 
+    background-color: rgb(85, 85, 85); 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -62,6 +81,7 @@
   }
   footer nav {
     height: fit-content;
+    margin-top: 15rem;
     margin-bottom: 0rem;
   }
   .about-containers,
@@ -106,17 +126,23 @@
 }
 
 @media screen and (max-width: 400px) {
-
+  nav{
+    justify-content:space-around ;
+    align-items: center;
+    height:10vh;   
+}
   #contact,
   footer {
     height: 80vh;
   }
   .form{
+    
     height: 40vh;
   }
   #profile {
     height: 83vh;
     margin-bottom: 0;
+    margin-top: 4vh;
   }
   article {
     font-size: 1rem;
@@ -124,10 +150,13 @@
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
+    margin-top: 20rem;
+    height:10vh;
   }
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
+    
     flex-wrap: wrap;
   }
   .contact-info-container {
@@ -163,10 +192,5 @@
   .text-container {
     text-align: justify;
   }
-  .traitement.php {
-    flex-wrap: wrap;
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
-
+  
 }
