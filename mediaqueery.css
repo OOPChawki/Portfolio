@@ -50,7 +50,7 @@
     height: 80vh;
   }
   .form{
-    height: 50vh;
+    height: 40vh;
   }
   
   #profile {
@@ -58,7 +58,7 @@
     margin-bottom: 0;
   }
   article {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   footer nav {
     height: fit-content;
@@ -112,7 +112,7 @@
     height: 80vh;
   }
   .form{
-    height: 50vh;
+    height: 40vh;
   }
   #profile {
     height: 83vh;
@@ -141,23 +141,24 @@
     font-size: 1.25rem;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
   .nav-links {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.2rem;
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 30vw;
+    width: 42vw;
+    height: 42vw;
+   
     justify-content: center;
   }
   .section__text__p2 {
-    font-size: 1.25rem;
+    font-size: 0.8rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .text-container {
     text-align: justify;
