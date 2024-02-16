@@ -10,6 +10,38 @@
 }
 
 @media screen and (max-width: 1200px) {
+  body {
+    font-size: 16px; /* or higher for better mobile readability */
+  }
+  #hamburger-nav {
+    height: 60px; /* Adjust the height as needed */
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* High z-index to ensure the navbar is above other content */
+   
+    /* Add any other styling such as box-shadow for depth */
+    
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  a.button, .contact-button {
+    padding: 1rem 1.5rem; /* Larger touch targets */
+    font-size: 1rem; /* Adjust as needed */
+  }
+  /* Style for the hamburger icon */
+  .hamburger-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Animated icon transform */
+  .hamburger-icon.open {
+    transform: rotate(45deg); /* Example rotation, can be changed to another form like 'X' */
+  }
   #desktop-nav {
     display: none;
   }
@@ -27,21 +59,31 @@
   .arrow {
     display: none;
   }
-  section,
-  .section-container {
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
-  }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
+ 
   .about-containers {
     margin-top: 0;
   }
+  .section__pic-container img {
+    width: 100%;
+    height: auto;
+    display: block; /* This centers the image if the width is set to 100% */
+  }
+  section {
+    padding: 2rem 5%; /* Adjust as necessary */
+  }
+  
+  .section-container {
+    padding: 1rem; /* This is just an example, adjust based on design */
+  }
+  .collapsible {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .collapsible.closed {
+    max-height: 0;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
