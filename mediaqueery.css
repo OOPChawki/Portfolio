@@ -35,8 +35,8 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250x;
     margin: 0 auto 2rem;
   }
   .about-containers {
@@ -62,7 +62,7 @@
   }
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -80,32 +80,29 @@
     font-size: 1.25rem;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
   .nav-links {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.2rem;
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 42vw;
+    height: 42vw;
+   
     justify-content: center;
   }
   .section__text__p2 {
-    font-size: 1.25rem;
+    font-size: 0.8rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .text-container {
     text-align: justify;
   }
-  .traitement.php {
-    flex-wrap: wrap;
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
+  
 }
 
 @media screen and (max-width: 400px) {
@@ -153,7 +150,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 30vw;
     justify-content: center;
   }
   .section__text__p2 {
