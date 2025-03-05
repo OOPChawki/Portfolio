@@ -293,30 +293,31 @@ section {
   position:relative;
 }
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
   display: flex;
-  background-color: #dbdbdb;
+  flex-wrap: wrap !important; /* Ensure items wrap properly */
+  justify-content: center !important;
+  align-items: center !important;
 }
 
-
 .about-details-container {
-  justify-content: center;
-  flex-direction: column;
+  width: 100% !important;
   display: flex;
-  background-color: #dbdbdb;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-containers,.about-details-container {
   display: flex;
 }
 
-.about-pic {
-border-radius: 2rem;
-width: 400px; /* Use the desired width */
-  height: 400px;
+.about-image {
+  width: 100% !important; /* Make image responsive */
+  max-width: 520px !important; /* Prevents it from being too large */
+  height: auto !important; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
 }
+
 
 .arrow {
 position: absolute;

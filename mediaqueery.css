@@ -5,6 +5,19 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 700px) {
+  .about-pic {
+      width: 90vw !important; /* Expand width on smaller screens */
+      max-width: none !important; /* Remove max-width limitation */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-pic {
+      width: 100vw !important; /* Use full width */
+  }
+}
+
 
 @media screen and (max-width: 1000px) {
   section{
