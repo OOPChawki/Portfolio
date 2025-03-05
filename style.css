@@ -428,8 +428,21 @@ bottom: 2.5rem;
     }
 }
 
-
-
+#my-image {
+  width: 100% !important;  /* Make it responsive */
+  max-width: 500px !important; /* Allow it to scale up */
+  height: auto !important; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+}
+.section__pic-container {
+  width: 100% !important;
+  max-width: 500px !important; /* Increase max width */
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* PROJECT SECTION STYLING */
 /* ABOUT ME SECTION IMAGE */
